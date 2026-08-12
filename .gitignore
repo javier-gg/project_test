@@ -1,0 +1,31 @@
+## Entorno virtual de Python
+venv/
+.venv/
+env/
+
+## Entorno virtual de R
+renv/
+.renv/
+
+## Caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Datos pesados
+data/raw/
+*.csv
+*.pkl
+*.h5
+
+## Configuraciones locales sensibles
+.env
+*.env
+
+## Editores y sistemas operativos
+.DS_Store
+.vscode/settings.json
+*.swp
+
+## Archivos de log
+*.log
