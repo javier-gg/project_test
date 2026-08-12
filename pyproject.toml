@@ -1,0 +1,36 @@
+[project]
+name = "project-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Javier", email = "javier.garridog@live.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.6.3",
+    "matplotlib>=3.11.1",
+    "nbclient>=0.11.0",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.11.0",
+    "numpy>=2.5.2",
+    "opencv-python-headless>=5.0.0.93",
+    "pandas>=3.0.5",
+    "plotly>=6.9.0",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "xgboost>=3.4.0",
+]
+
+[project.scripts]
+project-test = "project_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
