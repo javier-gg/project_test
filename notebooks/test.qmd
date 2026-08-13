@@ -1,0 +1,14 @@
+---
+title: "Mi primer documento de Quarto"
+format: html
+---
+
+## Un encabezado
+
+Este es un documento de Quarto. Podemos escribir ecuaciones de $\LaTeX$ y código.
+
+Para correr el código dentro de una celda, podemos hacer click en `Run cell` o `Shift + Enter`.
+
+```{python}
+import pandas as pd
+```
